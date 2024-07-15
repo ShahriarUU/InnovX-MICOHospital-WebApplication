@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media-queries.css">
+    <link rel="icon" type="image/x-icon" href="./images/logo.png">
+    <title>MICO HOSPITAL</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <!-- Header section start-->
+        <header>
+            <div class="contact">
+                <diV>
+                    <i class="fa-solid fa-phone icon"></i>
+                    <span class="call">Call:+88019xxxxxx</span>
+                </diV>
+                <div>
+                    <i class="fa-solid fa-envelope icon"></i>
+                    <span class="email">Email:Mico@gmail.com</span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-location-dot icon"></i>
+                    <span class="location">Location</span>
+                </div>
+            </div>
+
+        </header>
+        <!-- Header section end-->
+
+
+        <!--Navigation Bar section start-->
+        <nav>
+            <div class="nav-left">
+                <img src="images/logo.png">
+            </div>
+
+            <div class="nav-mid">
+                <ul class="nav-links" id="nav-linked">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li> <a href="#">TREATMENT</a></li>
+                    <li><a href="#">DOCTORS</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </div>
+
+
+            <div class="nav-right">
+
+                <i class="fa-solid fa-user"></i>
+                <a href="#" class="login">LOGIN</a>
+
+                <i class="fa-solid fa-user"></i>
+                <a href="#" class="signup">SIGN UP</a>
+
+                <i class="fa-solid fa-magnifying-glass  search-bar"></i>
+
+            </div>
+
+
+            <!--icon  for responsive design-->
+            <a href="#" id="nav-toggles"><i class="fa-solid fa-bars nav-toggle"></i></a>
+        </nav>
+
+        <!--Navigation Bar section end-->
+
+
+        <!--Hero Section  start-->
+        <main class="hero-section">
+            <div class="left-div">
+
+                <div class="play-figure">
+                    <i class="fa-solid fa-play  play-icon"></i>
+                </div>
+
+                <h1 class="text-H1">MICO</h1>
+                <h1 class="text-H1-Color text-H1">HOSPITAL</h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias dolor<br>
+                    alias facilis itaque rem et incidunt, a tempore consectetur.
+                </p>
+                <button class="btn">CONTACT US</button>
+            </div>
+
+
+            <div class="right-div">
+                <div class="slider-img">
+                    <img src="images/slider-img.jpg ">
+                    <div class="dots-img">
+                        <img src="images/dots.png">
+                    </div>
+                </div>
+
+
+                <div class="arrow">
+                    <i class="fa-solid fa-angle-left arrow-icon"></i>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-angle-right arrow-icon"></i>
+                </div>
+
+            </div>
+        </main>
+
+        <!--Hero Section  end-->
+
+        <!--Appointment section start-->
+
+        <section class="appointment">
+            <div class="appointment-text-div">
+                <span class="text_underline">BOOK </span><span class="color-text">APPOINTMENT</span>
+            </div>
+            <form class="appointment-container">
+                <div>
+                    <label class="appointment-label" for="patient">Patient Name</label><br><br>
+                    <input class="appointment-div" type="text" id="patient" name="patient">
+                </div>
+                <div>
+                    <label class="appointment-label" for="doctor">Doctor's Name</label><br><br>
+                    <select class="appointment-div">
+                        <option value="0">Select Doctor</option>
+                        <option value="1">Dr. Nazmul </option>
+                        <option value="2">Dr. Rohan </option>
+                        <option value="3">Dr. Hakim </option>
+                        <option value="4">Dr. Rifat </option>
+                    </select>
+                </div>
+                <div>
+                    <label class="appointment-label" for="department">Department Name</label><br><br>
+                    <select class="appointment-div">
+                        <option value="0">Select Department</option>
+                        <option value="1">Cardiology</option>
+                        <option value="2">Hematology</option>
+                        <option value="3">Dermatology</option>
+                        <option value="4">Neurology </option>
+                    </select>
+                </div>
+                <div>
+                    <label class="appointment-label" for="phone">Phone Number</label><br><br>
+                    <input class="appointment-div" type="text" id="phone" name="phone">
+                </div>
+                <div>
+                    <label class="appointment-label" for="symptoms">Symptoms</label><br><br>
+                    <input class="appointment-div" type="text" id="fname" name="fname">
+                </div>
+                <div>
+                    <label class="appointment-label" for="date">Choose Date</label><br><br>
+                    <input class="appointment-div" type="date" id="date" name="date">
+                </div>
+                <button class="appointment-btn">SUBMIT NOW</button>
+
+            </form>
+        </section>
+
+        <!--Appointment section end-->
+    </div>
+
+    <script src="nav-Responsive.js"></script>
+</body>
+
+</html>

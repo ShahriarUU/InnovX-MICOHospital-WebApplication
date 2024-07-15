@@ -1,0 +1,135 @@
+/* 992 to 1024 Screen*/
+@media screen and (max-width: 1024px) {
+  .nav-toggle {
+    display: block;
+    margin-right: 30px;
+  }
+
+  #nav-toggles {
+    text-decoration: none;
+    color: white;
+  }
+  nav {
+    position: relative;
+  }
+  .nav-links {
+    position: absolute;
+    flex-direction: column;
+    top: 100%;
+    right: -100%;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+  }
+
+  .nav-links.active {
+    right: 0%;
+  }
+
+  .nav-links li {
+    background-color: #00c6a9;
+    width: 100%;
+    padding: 10px 30px 30px 10px;
+    text-align: center;
+    border: 0.5px solid white;
+    border-radius: 3px;
+  }
+  .nav-links a {
+    width: 100%;
+    color: white;
+    font-weight: 2em;
+  }
+
+  .hero-section {
+    flex-wrap: wrap;
+  }
+
+  .appointment {
+    width: 75%;
+  }
+
+  .arrow {
+    top: 10%;
+    left: 97%;
+    width: 3rem;
+    height: 2.5rem;
+  }
+}
+
+/* 425 to 992 Screen*/
+@media screen and (max-width: 992px) {
+  .appointment {
+    width: 75%;
+  }
+  .appointment-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 1fr);
+  }
+
+  .arrow {
+    top: 10%;
+    right: 97%;
+    height: 2.5rem;
+  }
+}
+
+/* 375 to 425 Screen*/
+
+@media screen and (max-width: 425px) {
+  .contact {
+    flex-wrap: wrap;
+    left: 25%;
+  }
+
+  .search-bar {
+    display: none;
+  }
+
+  .nav-left {
+    text-align: left;
+    margin-left: 0.5em;
+    margin-right: 0.2em;
+  }
+  .nav-right .signup {
+    margin-right: 2em;
+  }
+
+  .left-div {
+    width: 100%;
+  }
+
+  .arrow {
+    left: 80%;
+    width: 2.5rem;
+    height: 2rem;
+  }
+
+  .color-text {
+    font-size: 2.5rem;
+  }
+  .text_underline {
+    font-size: 2.5rem;
+  }
+  .appointment-btn {
+    margin-left: 0.5em;
+  }
+}
+
+/* zero to 375 Screen*/
+
+@media screen and (max-width: 375px) {
+  .nav-right .login {
+    font-size: 1em;
+    margin-right: 0.3rem;
+    margin-left: 0.2rem;
+  }
+  .nav-right .signup {
+    font-size: 1em;
+    margin-right: 0.3rem;
+    margin-left: 0.2rem;
+  }
+
+  .left-div .text-H1 {
+    font-size: 3em;
+  }
+}
